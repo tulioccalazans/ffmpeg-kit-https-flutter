@@ -65,10 +65,6 @@ class _FfmpegHttpsPageState extends State<FfmpegHttpsPage> {
 
       final session = await FFmpegKit.execute(command);
       final returnCode = await session.getReturnCode();
-      final logs = await session.getAllLogs();
-      logs.forEach((e){
-        print('1111:${e.getMessage()}');
-      });
 
       if (ReturnCode.isSuccess(returnCode)) {
         setState(() {
