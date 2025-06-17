@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     # 尝试多个下载源
     if curl -L -o ios-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/ios-frameworks.zip; then
       echo "Downloaded from GitHub"
-    elif curl -L -o ios-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/ios-frameworks.zip; then
+    elif curl -L -o ios-frameworks.zip --connect-timeout 10 https://ghproxy.com/https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/ios-frameworks.zip; then
       echo "Downloaded from GitHub proxy"
     else
       echo "Failed to download frameworks"
