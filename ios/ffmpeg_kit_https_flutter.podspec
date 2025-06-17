@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   # 下载并解压远程frameworks
   s.prepare_command = <<-CMD
     # 尝试多个下载源
-    if curl -L -o ios-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmepg_kit_https_frameworks/releases/download/v#{s.version}/ios-frameworks.zip; then
+    if curl -L -o ios-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/ios-frameworks.zip; then
       echo "Downloaded from GitHub"
-    elif curl -L -o ios-frameworks.zip --connect-timeout 10 https://ghproxy.com/https://github.com/chenjun1127/ffmepg_kit_https_frameworks/releases/download/v#{s.version}/ios-frameworks.zip; then
+    elif curl -L -o ios-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/ios-frameworks.zip; then
       echo "Downloaded from GitHub proxy"
     else
       echo "Failed to download frameworks"

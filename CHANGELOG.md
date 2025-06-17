@@ -1,5 +1,10 @@
 
 
+
+## 0.0.3
+- Update README.MD and pubspec.yarl 
+- Add ffmegkit-https frameworkwoks to github release
+
 ## 0.0.2
 - Update readme.MD
 

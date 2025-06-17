@@ -4,9 +4,10 @@
 
 - Updated Android and MacOS bindings to work with Flutter 3.27.3
 - Includes both `FFmpeg` and `FFprobe`
+- Https version of FFmpegKit
 - Supports
     - `Android`, `iOS` and `macOS`
-    - FFmpeg `v6.0`
+    - FFmpeg `v6.0.2`
     - `arm-v7a`, `arm-v7a-neon`, `arm64-v8a`, `x86` and `x86_64` architectures on Android
     - `Android API Level 24` or later
       - `API Level 16` on LTS releases

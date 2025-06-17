@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
 
   s.prepare_command = <<-CMD
     # 下载 frameworks 压缩包（macOS）
-    if curl -L -o macos-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmepg_kit_https_frameworks/releases/download/v#{s.version}/macos-frameworks.zip; then
+    if curl -L -o macos-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/macos-frameworks.zip; then
       echo "Downloaded macOS frameworks"
-    elif curl -L -o macos-frameworks.zip --connect-timeout 10 https://ghproxy.com/https://github.com/chenjun1127/ffmepg_kit_https_frameworks/releases/download/v#{s.version}/macos-frameworks.zip; then
+    elif curl -L -o macos-frameworks.zip --connect-timeout 10 https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/macos-frameworks.zip; then
       echo "Downloaded from GitHub proxy"
     else
       echo "Failed to download macOS frameworks"
