@@ -1,9 +1,12 @@
 
 
+## 0.0.4
+- Update the download address of FFmegkit-https Frameworks
+- fix dart analyze warns
 
 ## 0.0.3
 - Update README.MD and pubspec.yarl 
-- Add ffmegkit-https frameworkwoks to github release
+- Add FFmegkit-https frameworkwoks to github release
 
 ## 0.0.2
 - Update readme.MD
