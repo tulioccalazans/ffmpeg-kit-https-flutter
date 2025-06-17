@@ -3,3 +3,5 @@
 .pub
 .dart_tool
 pubspec.lock
+ios/Frameworks/
+macos/Frameworks/
