@@ -71,22 +71,6 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  Future<void> testHttps() async {
-    final session = await FFmpegKit.execute('-protocols');
-    final returnCode = await session.getReturnCode();
-    final output = await session.getAllLogsAsString();
-
-    if (ReturnCode.isSuccess(returnCode)) {
-      if (output?.contains('https') ?? false) {
-        print('✅ FFmpeg 支持 HTTPS 协议');
-      } else {
-        print('❌ FFmpeg 不支持 HTTPS 协议');
-      }
-    } else {
-      print('❌ FFmpeg 命令执行失败，错误码：$returnCode');
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -108,13 +92,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const FfmpegConvertPage()));
               },
               child: const Text('Test convert audio'),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const FfmpegHttpsPage()));
-              },
-              child: const Text('Test FFmpeg HTTPS'),
             ),
             const SizedBox(height: 20),
             Expanded(
