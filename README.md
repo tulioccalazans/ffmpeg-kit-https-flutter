@@ -1,10 +1,10 @@
-# FFmpegKit for Flutter
+# FFmpegKit Audio for Flutter
 
 ### 1. Features
 
 - Updated Android and MacOS bindings to work with Flutter 3.27.3
 - Includes both `FFmpeg` and `FFprobe`
-- Https version of FFmpegKit
+- Audio version of FFmpegKit
 - Supports
     - `Android`, `iOS` and `macOS`
     - FFmpeg `v6.0.2`
@@ -41,11 +41,11 @@
 
 ### 2. Installation
 
-Add `ffmpeg_kit_https_flutter` as a dependency in your `pubspec.yaml` file.
+Add `ffmpeg_kit_audio_flutter` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  ffmpeg_kit_https_flutter: 0.0.2
+  ffmpeg_kit_audio_flutter: 1.0.1
 ```
 
 ### 3. Platform Support
@@ -59,6 +59,6 @@ ffmpeg_kit_flutter_new releases.
 ### 4. Using
 Execute FFmpeg commands.
 ```
-FFmpegKit.execute("-i input.mp4 output.mp4");
+FFmpegKit.execute("-i input.mp3 output.mp3");
 ```
 
