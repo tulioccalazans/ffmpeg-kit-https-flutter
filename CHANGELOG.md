@@ -1,9 +1,24 @@
 
-## 1.0.2
-- Update repository, remove macos 
-
-## 1.0.1
-- Update REMADME.md
-
 ## 1.0.0
-- The official audio version of a Flutter plugin forked from ffmpeg-kit, supporting iOS and Android.
+- Update the ffmpeg-kit-htts version and remove the support for MacOS.
+
+## 0.0.6
+- Fix dart analyze warns
+- Fix the download address of FFmegkit-https Frameworks
+
+## 0.0.5 
+- Fix dart analyze warns
+
+## 0.0.4 
+- Update the download address of FFmegkit-https Frameworks
+- Fix dart analyze warns
+
+## 0.0.3 
+- Update README.MD and pubspec.yaml
+- Add FFmegkit-https frameworkwoks to github release
+
+## 0.0.2 
+- Update readme.MD
+
+## 0.0.1 
+- This is the first version of a forked ffmpeg-kit, enhanced to support HTTPS streaming. It is compatible with iOS, Android, and macOS platforms.
