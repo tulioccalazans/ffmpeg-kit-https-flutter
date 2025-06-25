@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'ffmpeg_kit_https_flutter'
+  s.name             = 'ffmpeg_kit_audio_flutter'
   s.version          = '0.0.3'
   s.summary          = 'FFmpeg Kit for Flutter'
   s.description      = 'A Flutter plugin for running FFmpeg and FFprobe commands on iOS using prebuilt frameworks.'
-  s.homepage         = 'https://github.com/chenjun1127/ffmpeg_kit_https_flutter'
+  s.homepage         = 'https://github.com/chenjun1127/ffmpeg_kit_audio_flutter'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'chenjun1127' => 'your-email@example.com' }
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   # 使用简单的 git 源，避免复杂的下载逻辑
-  s.source = { :git => 'https://github.com/chenjun1127/ffmpeg_kit_https_flutter.git', :tag => "v#{s.version}" }
+  s.source = { :git => 'https://github.com/chenjun1127/ffmpeg_kit_audio_flutter.git', :tag => "v#{s.version}" }
 
   # 插件 iOS 代码文件路径
   s.source_files        = 'Classes/**/*'
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     export LANG=en_US.UTF-8
     
     FRAMEWORK_ZIP="ffmpeg-kit-ios-audio.zip"
-    DOWNLOAD_URL="https://github.com/chenjun1127/ffmpeg_kit_https_flutter/releases/download/v#{s.version}/${FRAMEWORK_ZIP}"
+    DOWNLOAD_URL="https://github.com/chenjun1127/ffmpeg_kit_audio_flutter/releases/download/v#{s.version}/${FRAMEWORK_ZIP}"
     
     echo "Downloading framework from GitHub Release..."
     
