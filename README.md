@@ -45,7 +45,7 @@ Add `ffmpeg_kit_https_flutter` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  ffmpeg_kit_https_flutter: 1.0.0
+  ffmpeg_kit_https_flutter: ^1.0.1
 ```
 
 ### 3. Platform Support

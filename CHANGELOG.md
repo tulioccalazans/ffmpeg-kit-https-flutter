@@ -1,4 +1,8 @@
 
+## 1.0.1
+- Update README.md
+- Update Java compatibility to Java 11
+
 ## 1.0.0
 - Update the ffmpeg-kit-htts version and remove the support for MacOS.
 
@@ -18,7 +22,7 @@
 - Add FFmegkit-https frameworkwoks to github release
 
 ## 0.0.2 
-- Update readme.MD
+- Update README.MD
 
 ## 0.0.1 
 - This is the first version of a forked ffmpeg-kit, enhanced to support HTTPS streaming. It is compatible with iOS, Android, and macOS platforms.
